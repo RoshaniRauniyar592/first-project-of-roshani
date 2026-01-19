@@ -1,0 +1,132 @@
+.sidebar {
+    text-align: left;
+    text-decoration: none;
+    width: 220px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+ .sidebar a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px ;
+ }
+
+.sidebar a:hover {
+  padding-left: 10px;
+  color: #005EA6;
+}
+
+h1 {
+    height: 45px;
+    width: 128px;
+    color: black;
+    text-align: left;
+    padding: 0px;
+}
+button {
+    color: white;
+    background-color:#005EA6;
+    border: none;
+    border-radius: 7px;
+    margin-left: 54px;
+    padding: 5px 12px 5px 12px;
+   
+}
+#button {
+    padding: 5px 12px 5px 12px;
+    border-radius: 8px;
+}
+
+body {
+    background-color:#F7F9FA
+    
+}
+
+.navlinks {
+    text-align: center;
+    background-color: #005EA6;
+    color: white;
+     text-decoration: none;
+}
+h4 {
+    
+    text-align: left;
+    
+}
+
+#button {
+        background-color: #005EA6;
+        color: white;
+        border: none;
+}
+   
+* {
+    font-size: 18px;
+    font-family: 'Times New Roman';
+   }
+#heading1 {
+        font-size: 30px;
+}
+   
+.bar span {
+    margin-right: 100px; 
+}
+.topbar {
+    display: inline;
+}
+.bar {
+    display: inline;
+}
+
+
+.right-align {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+ .in {
+    margin-right: 350px;
+    display: inline;
+}
+.first {
+    margin-right: 350px;
+    display: inline;
+    padding: 2px;
+    border-radius: 5px;
+}
+.firstrow #role {
+    margin-right: 400px;
+}
+.firstrow #email {
+    margin-right: 359px;
+}
+
+
+.sidebar a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 15px 0;
+}
+
+#BloodGroup,#email, #role , #employeeid , #in, #pan {
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.in {
+    padding: 2px;
+    border-radius: 5px;
+}
+
+#maincontent {
+    flex: 1;                /* takes remaining space */
+    padding: 20px;
+    background-color: #F7F9FA;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+}
